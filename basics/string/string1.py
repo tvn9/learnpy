@@ -3,9 +3,9 @@
 new_line = "Line 1\nLine 2"
 print(new_line)
 
-print("This the the backslsh \\")
+print("This is the backslsh \\")
 
-print("Single quote \`Single quote\`")
+print("Single quote \'Single quote\'")
 
 print("This is double quote \"Hello World\"!")
 
@@ -29,5 +29,7 @@ print("/\\/\\")
 
 greeting = "hello"
 name = "Chris"
-greeting_name = greeting+" "+name
+greeting_name = greeting + " " +name
 print(greeting_name)
+
+print(f"{greeting} {name}")
